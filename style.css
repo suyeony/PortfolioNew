@@ -262,6 +262,10 @@ html {
     transition: box-shadow 0.5s;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .project:hover {
     box-shadow: 1rem 1rem 1rem #777;
 }
