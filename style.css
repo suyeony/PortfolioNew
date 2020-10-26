@@ -23,7 +23,7 @@ html {
 
 .section-heading {
     font-size: 5rem;
-    color: #333;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     margin-bottom: 15rem;
@@ -36,8 +36,10 @@ html {
 .section-1 {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(255,255,255,.2), rgba(255,
+    /*background: linear-gradient(rgba(255,255,255,.2), rgba(255,
     255,255,.3)), url(images/port_section1.jpg) center no-repeat;
+    */
+    background-color: #14213D;
     background-size: cover;
     flex-direction: column;
 
@@ -47,7 +49,7 @@ html {
     font-size: 6rem;
     font-weight: 700;
     color: #fff;
-    background-color: #23CE6B;
+    background-color: #FCA311;
     padding: 0 3rem;
     margin-bottom: 5rem;
     text-transform: uppercase;
@@ -63,7 +65,7 @@ html {
     height: 25rem;
     object-fit: cover;
     border-radius: 50%;
-    border: .7rem dotted #23CE6B;
+    border: .7rem dotted #FCA311;
     background-color: rgba(255, 255, 255, 0.7);
     padding: .5rem;
     opacity: 0.9;
@@ -72,7 +74,7 @@ html {
 .person-name {
     font-size: 2rem;
     color: #fff;
-    background-color: #23CE6B;
+    background-color: #FCA311;
     margin: 5rem 0;
     padding: .5rem 3rem;
     letter-spacing: 0.3rem;
@@ -95,7 +97,7 @@ html {
 .navbar {
     width: 100%;
     height: 4rem;
-    background-color: #23CE6B;
+    background-color: #FCA311;
     box-shadow: 0.2rem 0.2rem 0.5rem #555;
     position: absolute;
     z-index: 300;
@@ -191,7 +193,7 @@ html {
 .progress-percent {
     width: 0;
     height: 100%;
-    background-color: #23CE6B;
+    background-color: #FCA311;
     border-radius: 0.3rem;
     transition: width .5s .5s ease-in-out;
 }
@@ -214,7 +216,7 @@ html {
 
 .service i {
     font-size: 10rem;
-    color: #888;
+    color: #14213D;
     margin-bottom: 2rem;
     text-shadow: 0.1rem 0.1rem 0.5rem #555;
 
@@ -223,7 +225,7 @@ html {
 .service h2 {
     font-size: 2rem;
     color: #fff;
-    background-color: #777;
+    background-color: #14213D;
     width: 25rem;
     letter-spacing: .3rem;
     transform: skew(-10deg);
@@ -238,7 +240,7 @@ html {
     width: 100%;
     height: 100%;
     padding: 10rem 0;
-    background-color: #eef;
+    background-color: #E5E5E5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -312,7 +314,7 @@ html {
     font-weight: 500;
     color: #333;
     letter-spacing: .1rem;
-    border: .3rem solid #23CE6B;
+    border: .3rem solid #FCA311;
     padding: 0 1rem;
     background-color: #fff;
     position: absolute;
@@ -331,18 +333,38 @@ html {
 .section-4 {
     width: 100%;
     height: 70vh;
-    background-color: #333;
+    background-color: #14213D;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding: 10rem 0px;
 }
 
 .section-4-heading {
     color: #fff;
     box-shadow: none;
     border-color: #fff;
+    margin-top: 15rem;
     margin-bottom: 5rem;
+}
+
+.contact-name {
+    color: #fff;
+    box-shadow: none;
+    border-color: #fff;
+    font-size: 2rem;
+    padding-top: 5rem;
+
+}
+
+.section-4 a {
+    color: #fff;
+    box-shadow: none;
+    border-color: #fff;
+    font-size: 2rem;
+    margin-top: 5rem;
+    
 }
 
 .contact-form {
@@ -357,7 +379,7 @@ html {
     margin: .5rem 0;
     background-color:  #eef;
     font-size: 1.5rem;
-    border: .2rem solid #23CE6B;
+    border: .2rem solid #FCA311;
     color: #555;
 }
 
@@ -368,11 +390,15 @@ html {
 }
 
 .contact-form .contact-form-btn {
-    background-color: #23CE6B;
+    background-color: #FCA311;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1rem;
     cursor: pointer;
+}
+
+.contact-form {
+    visibility: hidden;
 }
 /* End of Section 4 */
 
@@ -380,7 +406,7 @@ html {
 .section-5 {
     width: 100%;
     height: 30vh;
-    background-color: #222;
+    background-color: #000000;
     flex-direction: column;
 }
 
@@ -392,7 +418,7 @@ html {
 .social-media-link {
     margin: 0 2rem;
     padding: .7rem;
-    background-color: #23CE6B;
+    background-color: #FCA311;
     border-radius: 0.5rem;
     display: inline-block;
 }
